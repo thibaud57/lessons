@@ -1,4 +1,4 @@
-# Knowledges
+# Lessons
 
 Base de leçons de programmation pour développeurs mid/senior, générées et maintenues via Claude Code.
 
