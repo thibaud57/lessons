@@ -1,7 +1,6 @@
 # Lessons
 
 Base de leçons de programmation pour développeurs mid/senior, générées et maintenues via Agent IA.
-
 Chaque leçon est une fiche de révision dense : concepts clés, pièges, dépréciations, blocs de code. Pas de tutoriel pas à pas, mais de la substance directement exploitable en entretien ou en production.
 
 ## Structure
