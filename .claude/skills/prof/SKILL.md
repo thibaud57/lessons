@@ -188,9 +188,9 @@ Mettre à jour `lessons/index.yaml` après chaque leçon créée ou modifiée :
 
 - `id` : kebab-case du titre (ex : `lazy-loading`) — **CREATE uniquement**
 - `file` : `lessons/<techno>/<id>.md` — **CREATE uniquement**
-- `concepts` : termes techniques clés reflétant le contenu actuel (ajouts et suppressions)
-- `last_version` : voir règle **Recherches** — écrite au niveau de la leçon (pas au niveau techno)
-- `last_updated` : date courante du système — au niveau de la leçon et au niveau de la techno parente
+- `concepts` : termes techniques clés reflétant le contenu actuel (ajouts et suppressions) — n'évolue que si le `.md` change
+- `last_version` : voir règle **Recherches** — écrite au niveau leçon. En mode UPDATE, bumper sur **toutes les leçons** de la techno, même celles non modifiées (cohérence techno)
+- `last_updated` : date courante du système. Niveau **leçon** : uniquement si le `.md` a été modifié. Niveau **techno parente** : dès qu'une leçon est touchée (contenu ou bump de version)
 
 ### Interactions
 
